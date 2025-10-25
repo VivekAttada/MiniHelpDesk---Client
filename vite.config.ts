@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:4000',
+        target: 'https://minihelpdesk-server.onrender.com',
         changeOrigin: true,
       },
     },
